@@ -2,6 +2,10 @@
 
 This quickstart/template is an example of Zero running in React Native w/ Expo.
 
+## Demo
+
+https://github.com/user-attachments/assets/778323ec-113a-4d9b-9af5-36f006ea9097
+
 ## Setup
 
 ### Server
