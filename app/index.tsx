@@ -7,11 +7,10 @@ export default function Screen() {
     const z = useZero<Schema>();
 
     const query = z.query.message.limit(100);
-    const [allMessages, messagesDetail] = useQuery(query);
-    console.log(allMessages);
+    const [allMessages] = useQuery(query);
 
     return (
-        <View className="flex-1 items-center justify-center">
+        <View>
             <Text>{allMessages.length} Messages</Text>
             {allMessages.map((message) => (
                 <Text key={message.id}>{message.body}</Text>
